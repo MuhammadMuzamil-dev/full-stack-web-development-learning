@@ -1,5 +1,0 @@
-v3 QA (honest)
-PASS: PowerShell parser check on all .ps1 files (PowerShell 7.4.6 parser, Linux sandbox).
-PASS: dry run with FAKE yt-dlp/ffmpeg/deno/aria2c: both links processed one after another, stderr warnings did not stop the script, correct arguments built for aria2c path and for the no-aria2c fallback path, Node runtime fallback passes --js-runtimes node.
-PASS: encoded companion payload decodes byte-for-byte to the readable script.
-NOT TESTED: a real YouTube download (the build sandbox cannot reach YouTube) and Windows PowerShell 5.1 runtime. Test ONE video first and read the log lines printed in the console.
